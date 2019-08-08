@@ -1,0 +1,5 @@
+.Rhistory
+*.csv
+*.pdf
+/Data source.txt
+/visualization reference.txt

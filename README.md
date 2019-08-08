@@ -114,4 +114,4 @@ For males' athletic performance, there is no significant difference between of U
 For females' athletic performance, there is no significant difference between China and Korea, while there is a significant difference between U.S. and Chinese/Korean athletes, between Canadian and Chinese/Korean athletes, as well as between U.S. and Canadian athletes.
 
 ### Outro :Seanson 2 preview
-Contributing factors in the difference in scores: physical conditions, use it and past scores to predict future scores?
+Contributing factors in the difference in scores: physical conditions, use it and past scores to predict future scores?# Game-of-Fitness-GOF--Statistics
