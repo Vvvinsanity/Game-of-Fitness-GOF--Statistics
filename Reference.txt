@@ -1,0 +1,7 @@
+Methodologies
+1. crossfit games rulebook - open workout totla score recalculation
+2. nonparametric test - 
+http://www.sthda.com/english/wiki/kruskal-wallis-test-in-r#check-your-data
+
+https://morningchalkup.com/2019/04/04/2019-open-performance-by-country/
+The inspiration of my exploration comes from the article posted on Morning Chalk Up by Scott Henderson, in which the general fitness levels among countries in the world were compared through the Open event data. Instead of looking at the fitness level of the general population, I'm interested in the top-level athletes among countries.
