@@ -1,5 +1,10 @@
 # Game of Fitness (GOF) - Season 1 The Statistics 
+
 ---
+Historically, the CrossFit Game has crowned top fittest men and women on earth overwhelmingly to athletes from a small nitche of countries, U.S., G.B, CA, Iceland. As the competition rules envolve and more widely spread of the sports around the globe, there seemed to be more appearance of top athletes from all other regions of the world. Through the global participation of the CrossFit Open event, top athletes from every country has a chance to compete in the glorious "CrossFit Olympic" - the CrossFit Game.
+
+---
+
 ### Table of Contents
 Intro
 
@@ -13,9 +18,6 @@ Episode 3: (Statistical) Test of fitness
 
 Outro :Seanson 2 preview
 
----
-## Intro
-Historically, the CrossFit Game has crowned top fittest men and women on earth overwhelmingly to athletes from a small nitche of countries, U.S., G.B, CA, Iceland. As the competition rules envolve and more widely spread of the sports around the globe, there seemed to be more appearance of top athletes from all other regions of the world. Through the global participation of the CrossFit Open event, top athletes from every country has a chance to compete in the glorious "CrossFit Olympic" - the CrossFit Game.
 
 ## Overview
 In the first season of the GOF, I investigated data of some top CrossFit athletes in the world. The exploration of data is divided into three episodes (just like a good trilogy) unfold the hidden statistics behind the numbers. Episode 1 covers the journey of data extraction and data wrangling that sets stage for the later statistical test. Episode 2 explores some key statistics and visualizations of the cleaned data. Finally, Episode 3 discusses the methods of two hypothesis tests being conducted on the dataset to find statistical evidence   
@@ -68,13 +70,16 @@ There are 4 sampling groups (4 countries) with 10 samples in each group (n=10). 
 
 With the scraped data from top 10 athletes in these four countries, it is still difficult to compare their performance because each athletes have 5 scores for 5 seperate events in the competition. The official CrossFit rule uses athletes' ranking as points in each event, that is, an athlete who ranks #6 will get 6 points for that event, therefore the less points the better they do overall. However, it might be misleading in our analysis and hypothesis test. So we will need to re-invent the wheel here.
 To do this, I combined all 5 events in their data into a new score, represented by the total number of repititions athletes completed in all the events. The challenge is converting data of 'time' into data of 'rep' based on the event rule book and specific workouts. This transformation of data could be subjective, but based on my participation in these events and general experience, here is list of rule of thumb I followed in converting the data:
-| Goal: convert event finish 'time' into 'reps' |
-| ------- | -------------------------------------------------------- |
-| Event 1 | unchanged |
-| Event 2 | 430 reps / 20min cap; rule of thumb: 10 seconds per rep |
-| Event 3 | 180 reps / 10min cap; rule of thumb: 5 seconds per rep |
-| Event 4 | 132 reps / 12min cap; rule of thumb: 4 seconds per rep |
-| Event 5 | 210 reps / 20min cap; rule of thumb: 4 seconds per rep |
+
+*The goal is to convert event finish 'time' into 'reps' for athletes who finished the time-capped workout with score of time instead of reps* 
+
+| Event  |  Workout Cap | Conversion Rule of Thumb |
+| ------- | ----------- | ------------------------------------------- |
+| Event 1 | AMRAP (as many reps as possible) | Unchanged |
+| Event 2 | 430 reps / 20min cap | 430 reps + 10 seconds per rep |
+| Event 3 | 180 reps / 10min cap | 180 reps + 5 seconds per rep |
+| Event 4 | 132 reps / 12min cap | 132 reps + 4 seconds per rep |
+| Event 5 | 210 reps / 20min cap | 210 reps + 4 seconds per rep |
 
 After the conversion of scores, the data now contains 6 variables: athletes' name, age, height and weight, nationanlity, and a new score measured in total repititions. Let's take a look at the distribution of the new scores. 
 ```
