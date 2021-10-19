@@ -1,4 +1,4 @@
-# Game of Fitness (GOF) - Season 1 The Statistics 
+# Game of Fitness (GOF) - The Statistics 
 
 ---
 Historically, the CrossFit Game has crowned top fittest men and women on earth overwhelmingly to athletes from a small niche of countries, U.S., G.B, CA, Iceland. As the competition rules evolve and more widely spread of the sports around the globe, there seemed to be more appearance of top athletes from all other regions of the world. Through the global participation of the CrossFit Open event, top athletes from every country has a chance to compete in the glorious "CrossFit Olympic" - the CrossFit Game.
@@ -21,10 +21,10 @@ Historically, the CrossFit Game has crowned top fittest men and women on earth o
 
 
 ## Overview <a name="overview"></a>
-In the first season of the GOF, I investigated data of some top CrossFit athletes in the world. The exploration of data is divided into three episodes (just like a good trilogy) unfold the hidden statistics behind the numbers. Episode 1 covers the journey of data extraction and data wrangling that sets stage for the later statistical test. Episode 2 explores some key statistics and visualizations of the cleaned data. Finally, Episode 3 discusses the methods of two hypothesis tests being conducted on the dataset to find statistical evidence   
+In this GOF statistical test, I investigated data of some top CrossFit athletes in the world. The exploration of data is divided into three episodes (just like a good trilogy) unfold the hidden statistics behind the numbers. Episode 1 covers the journey of data extraction and data wrangling that sets stage for the later statistical test. Episode 2 explores some key statistics and visualizations of the cleaned data. Finally, Episode 3 discusses the methods of two hypothesis tests being conducted on the dataset to find statistical evidence   
 
 After discovering the large gap among the global ranks of Crossfit national champions in the Open Workout competition, it leads me to think: Do the top CrossFit athletes among different continents really have difference in their performance?
-In other words, are the professional CrossFitters in one large geographic region better/worse than the ones in other regions? This question leads me to think about countries/continent that are good at other international sports (soccer, basketball, tennis, swimming, etc.) and the ones that are not so good. As a Chinese, although we are pretty good at scoring gold metals in the Olympic, I quickly think of the difference between the fame of Asian sports athletes and American sports teams in other sports (Chinese basketball team vs. U.S. basketball team, for example). It would be interesting to use statistics to test whether there is a performance difference between top American and Asian CF athletes.
+In other words, are the professional CrossFitters in one large geographic region better/worse than the ones in other regions? It is obvious that some countries/continent are good at certain sports and not so good at others, for example, the U.S. basketball team has always been number one in the world while team China has been dominating the world's ping pong game. Given that cultural influence and popularity of different sports are definitely contributing factors that allow different countries to prevail in certain sports, it would be interesting to see if competative Crossfitters in one country or continent can truly seprerate their performance from others under the test of statistics.
 
 ## Episode 1: Quest for data <a name="ep1"></a>
 With the tasking of searching for the most comprehensive data that measures verified athletic scores, our quest landed on the home of the sport's web page crossfit.com.
